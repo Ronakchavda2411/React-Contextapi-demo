@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="w-full h-screen" style={{ backgroundColor: theme.bgColor }}>
       <ThemeContext.Provider value={{ value: theme, setTheme: setTheme }}>
+        <p>This is a Demo App</p>
         <Demo />
       </ThemeContext.Provider>
     </div>
